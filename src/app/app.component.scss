@@ -7,19 +7,24 @@ ion-menu.md ion-content {
   --padding-end: 8px;
   --padding-top: 20px;
   --padding-bottom: 20px;
+ 
 }
 
 ion-menu.md ion-list {
   padding: 20px 0;
+  
 }
 
 ion-menu.md ion-note {
   margin-bottom: 30px;
+ 
 }
 
-ion-menu.md ion-list-header,
+ion-menu.md ion-list-header
+
 ion-menu.md ion-note {
   padding-left: 10px;
+ 
 }
 
 ion-menu.md ion-list#inbox-list {
