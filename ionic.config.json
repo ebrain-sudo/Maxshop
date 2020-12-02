@@ -1,0 +1,7 @@
+{
+  "name": "Maxshop",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
