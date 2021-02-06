@@ -13,35 +13,40 @@ export class AppComponent implements OnInit {
   public selectedIndex = 0;
   public appPages = [
     {
+      title: 'Login/Signup',
+      url: '/login',
+      icon: 'people'
+    },
+    {
       title: 'Home',
       url: '/home',
       icon: 'home'
     },
     {
-      title: 'cart',
+      title: 'Cart',
       url: '/cart',
       icon: 'cart'
     },
     {
-      title: 'User Profile',
-      url: '/profile',
-      icon: 'heart'
+      title: 'Customer',
+      url: '/customer',
+      icon: 'rose'
     },
     {
       title: 'Status',
       url: '/status',
-      icon: 'archive'
+      icon: 'Hourglass'
     },
     {
       title: 'About us',
       url: '/about',
       icon: 'people'
     },
-    {
-      title: 'Admin',
-      url: '/folder/Spam',
-      icon: 'pen'
-    }
+    // {
+    //   title: 'Admin',
+    //   url: '/admin',
+    //   icon: 'list'
+    // }
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
